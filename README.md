@@ -1,1 +1,1 @@
-# scitt_gallery
+# SCITT Technologies Projects
