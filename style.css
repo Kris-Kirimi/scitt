@@ -1,0 +1,39 @@
+nav {
+    background-color: #41a72f;
+    color: rgb(49, 99, 198);
+    padding: 10px 0;
+    
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px;
+
+}
+
+.container img {
+    width: 70px;
+    height: 70px;
+    position: relative;
+
+}
+
+.nav-links ul {
+    display: flex;
+    list-style: none;
+
+}
+
+.nav-links ul li {
+    margin-right: 50px;
+}
+
+.nav-links ul li a {
+    color: white;
+    text-decoration: none;
+}
