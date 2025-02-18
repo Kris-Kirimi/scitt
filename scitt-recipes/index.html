@@ -4,86 +4,130 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SCITT RECIPE</title>
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
-    <div class="header">
-        <h1>SCITT RECIPES</h1>
-        <img src="https://via.placeholder.com/150" alt="Recipe Image">
-        <p>Welcome to SCITT Recipes! Here you will find a variety of recipes to try at home. Whether you are a beginner or an experienced cook, we have something for everyone. </p>
-        <p>Our recipes are easy to follow and use simple ingredients that you can find in your local grocery store. We hope you enjoy making these dishes as much as we do!</p>
-        <p>Feel free to browse our collection of recipes and let us know what you think. We love hearing from our readers and are always looking for ways to improve our content.</p>
-        <p>Happy cooking!</p>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Welcome</a>
+        <a href="#">Sweet Recipes</a>
+        <a href="#">Savory Recipes</a>
+        <a href="#">Healthy Recipes</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
     </div>
+
+    <span class="hamburger" onclick="openNav()">&#9776;</span>
+
+        <div id="main">
+            <div class="header">
+
+                <h1>SCITT RECIPES</h1>            
+                <img class="image" src="samosa.jpg" alt="Crispy golden samosas with spicy filling">
+                <p><strong>Easy Recipes for Everyone</strong></p>
+                <em>
+                <p>Welcome to SCITT Recipes! Here you will find a variety of recipes to try at home. Whether you are a beginner or an experienced cook, we have something for everyone. </p>
+                <p>Our recipes are easy to follow and use simple ingredients that you can find in your local grocery store. We hope you enjoy making these dishes as much as we do!</p>
+                <p>Feel free to browse our collection of recipes and let us know what you think. We love hearing from our readers and are always looking for ways to improve our content.</p>
+                <p>Happy cooking!</p>
+                </em>
+            </div>
+
+            <div class="recipe">
+                <div class="ingredients">
+                    <p>Here is a recipe for you to try:</p>
+
+                    <h2>How to Make Samosas 🥟</h2>
+                    <h3>Ingredients</h3>
+                    <h4>For the dough:</h4>
+                    <ul>
+                        <li>2 cups all-purpose flour</li>
+                        <li>1/4 cup vegetable oil</li>
+                        <li>1/2 teaspoon salt</li>
+                        <li>1/2 cup water (adjust as needed)</li>
+                    </ul>
+                    <h4>For the filling:</h4>
+                    
+                    <ul>
+                        <li>250g minced beef or chicken</li>
+                        <li>1 small onion (chopped)</li>
+                        <li>2 cloves garlic (minced)</li>
+                        <li>1 teaspoon cumin</li>
+                        <li>1 teaspoon garam masala (optional)</li>
+                        <li>1/2 teaspoon chili powder (optional)</li>
+                        <li>Salt and pepper to taste</li>
+                        <li>1 tablespoon oil</li>
+                    </ul>
+                </div>
+                
+                <div class="instructions">
+
+                    <h3>Instructions</h3>
+                    <h4>Step 1 : Make the Dough</h4>
+                    <ol>
+
+                        <li>In a bowl, mix flour, salt, and oil.</li>
+                        <li>Slowly add water and knead for 5–7 minutes until smooth.</li>
+                        <li>Cover and let it rest for <strong>30 minutes.</strong></li>       
+                    </ol>
+                    <h4>Step 2 : Make the Filling</h4>
+                    <ol>
+                        <li>Heat oil in a pan, add onions and garlic.</li>
+                        <li>Add minced meat and cook until browned.</li>
+                        <li>Add spices, salt, and pepper. Stir well.</li>
+                        <li>Cook for another 5 minutes, then let it cool.</li>
+                    </ol>
+                    <h4>Step 3 : Assemble the Samosas</h4>
+                    <ol>
+                        <li>Divide the dough into small balls.</li>
+                        <li>Roll out each ball into a circle.</li>
+                        <li>Cut the circle in half and fold into a cone.</li>
+                        <li>Fill the cone with the meat mixture.</li>
+                        <li>Seal the edges with water and press gently but firmly.</li>
+                    </ol>
+                    <h4>Step 4 : Fry the Samosas</h4>
+                    <ol>
+                        <li>Heat oil in a deep frying pan.</li>
+                        <li>Fry the samosas until golden brown.</li>
+                    </ol>
+                </div>
+                <p>Enjoy!</p>
+            <p>For more recipes, visit our <a href="index.html">homepage</a></p>
+
+            </div>  
+        </div>
     
-    <div class="ingredients">
-        <p>Here is a recipe for you to try:</p>
-
-        <h2>How to Make Samosas 🥟</h2>
-        <h3>Ingredients</h3>
-        <h4>For the dough:</h4>
-        <ul>
-            <li>2 cups all-purpose flour</li>
-            <li>1/4 cup vegetable oil</li>
-            <li>1/2 teaspoon salt</li>
-            <li>1/2 cup water (adjust as needed)</li>
-        </ul>
-        <h4>For the filling:</h4>
-        
-        <ul>
-            <li>250g minced beef or chicken</li>
-            <li>1 small onion (chopped)</li>
-            <li>2 cloves garlic (minced)</li>
-            <li>1 teaspoon cumin</li>
-            <li>1 teaspoon garam masala (optional)</li>
-            <li>1/2 teaspoon chili powder (optional)</li>
-            <li>Salt and pepper to taste</li>
-            <li>1 tablespoon oil</li>
-        </ul>
-    </div>
     
-    <div class="instructions">
-
-        <h3>Instructions</h3>
-        <h4>Step 1 : Make the Dough</h4>
-        <ol>
-
-            <li>In a bowl, mix flour, salt, and oil.</li>
-            <li>Slowly add water and knead for 5–7 minutes until smooth.</li>
-            <li>Cover and let it rest for <strong>30 minutes.</strong></li>       
-        </ol>
-        <h4>Step 2 : Make the Filling</h4>
-        <ol>
-            <li>Heat oil in a pan, add onions and garlic.</li>
-            <li>Add minced meat and cook until browned.</li>
-            <li>Add spices, salt, and pepper. Stir well.</li>
-            <li>Cook for another 5 minutes, then let it cool.</li>
-        </ol>
-        <h4>Step 3 : Assemble the Samosas</h4>
-        <ol>
-            <li>Divide the dough into small balls.</li>
-            <li>Roll out each ball into a circle.</li>
-            <li>Cut the circle in half and fold into a cone.</li>
-            <li>Fill the cone with the meat mixture.</li>
-            <li>Seal the edges with water and press gently but firmly.</li>
-        </ol>
-        <h4>Step 4 : Fry the Samosas</h4>
-        <ol>
-            <li>Heat oil in a deep frying pan.</li>
-            <li>Fry the samosas until golden brown.</li>
-        </ol>
-    </div>
-    <p>Enjoy!</p>
-    <p>For more recipes, visit our <a href=""> homepage</a></p>
 </body>
 
-<footer>
-    <h4>Thanks for stopping by!</h4>
-    
-    <p>Follow us on social media:</p>
-    <ul>
-        <li href="">Facebook</li>
-        <li href="">Instagram</li>
-        <li href="">Twitter</li>
-    </ul>
+<footer class="footer">
+    <div id="main">
+    <section>
+        <h4>Thanks for stopping by!</h4>
+        <div class="social-media">  
+            <p>Follow us on social media:</p>
+            <ul>
+                <li><a href="https://facebook.com">Facebook</a></li>
+                <li><a href="https://twitter.com">Twitter</a></li>
+                <li><a href="https://instagram.com">Instagram</a></li>
+            </ul>
+        </div>
+    </section>
+    </div>
 </footer>
-</html> 
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+}
+
+</script>
+
+</html>
